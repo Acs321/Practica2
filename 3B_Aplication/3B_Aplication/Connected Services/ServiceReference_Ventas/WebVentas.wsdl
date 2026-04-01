@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAllClientes">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllClientesResult" type="tns:ArrayOfClienteModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClienteModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ClienteModel" nillable="true" type="tns:ClienteModel" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ClienteModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IdCliente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Pais" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ciudad" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllProductos">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllProductosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllProductosResult" type="tns:ArrayOfProductoModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfProductoModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ProductoModel" nillable="true" type="tns:ProductoModel" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ProductoModel">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdProducto" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Precio" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Existencia" type="s:short" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RegistrarVenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idCliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="detalleVenta" type="tns:ArrayOfDetalleVentaModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfDetalleVentaModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DetalleVentaModel" nillable="true" type="tns:DetalleVentaModel" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DetalleVentaModel">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdProducto" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Cantidad" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RegistrarVentaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrarVentaResult" type="tns:RespuestaVentaModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaVentaModel">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Respuesta" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensaje" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdVenta" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllClientes" />
+  </wsdl:message>
+  <wsdl:message name="GetAllClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductosSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllProductos" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductosSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllProductosResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarVentaSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarVenta" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarVentaSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarVentaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebVentasSoap">
+    <wsdl:operation name="GetAllClientes">
+      <wsdl:input message="tns:GetAllClientesSoapIn" />
+      <wsdl:output message="tns:GetAllClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProductos">
+      <wsdl:input message="tns:GetAllProductosSoapIn" />
+      <wsdl:output message="tns:GetAllProductosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarVenta">
+      <wsdl:input message="tns:RegistrarVentaSoapIn" />
+      <wsdl:output message="tns:RegistrarVentaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebVentasSoap" type="tns:WebVentasSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllClientes">
+      <soap:operation soapAction="http://tempuri.org/GetAllClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProductos">
+      <soap:operation soapAction="http://tempuri.org/GetAllProductos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarVenta">
+      <soap:operation soapAction="http://tempuri.org/RegistrarVenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebVentasSoap12" type="tns:WebVentasSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllClientes">
+      <soap12:operation soapAction="http://tempuri.org/GetAllClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProductos">
+      <soap12:operation soapAction="http://tempuri.org/GetAllProductos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarVenta">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarVenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebVentas">
+    <wsdl:port name="WebVentasSoap" binding="tns:WebVentasSoap">
+      <soap:address location="https://localhost:44391/Web/WebVentas.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebVentasSoap12" binding="tns:WebVentasSoap12">
+      <soap12:address location="https://localhost:44391/Web/WebVentas.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

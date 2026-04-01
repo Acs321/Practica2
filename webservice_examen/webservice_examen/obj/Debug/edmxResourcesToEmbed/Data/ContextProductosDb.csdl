@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="productosdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="suspendido" Type="Boolean" Nullable="false" />
+    <Property Name="contrasenia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="UsuarioRoles" Relationship="productosdbModel.FK_UsuarioRoles_usuarios1" FromRole="usuarios" ToRole="UsuarioRoles" />
+    <NavigationProperty Name="perfilUsuario" Relationship="productosdbModel.FK_perfilUsuario_usuarios" FromRole="usuarios" ToRole="perfilUsuario" />
+  </EntityType>
+  <EntityContainer Name="productosdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+    <FunctionImport Name="GetAllUsuarios" ReturnType="Collection(productosdbModel.GetAllUsuarios_Result)" />
+    <FunctionImport Name="insert" ReturnType="Collection(productosdbModel.insert_Result)">
+      <Parameter Name="nombre" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+      <Parameter Name="suspend" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Insertar_Usuarios" ReturnType="Collection(productosdbModel.Insertar_Usuarios_Result)">
+      <Parameter Name="nombre" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+      <Parameter Name="suspend" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSuspendidos" ReturnType="Collection(productosdbModel.sp_GetSuspendidos_Result)" />
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(productosdbModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(productosdbModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="roles" EntityType="productosdbModel.roles" />
+    <EntitySet Name="UsuarioRoles" EntityType="productosdbModel.UsuarioRoles" />
+    <AssociationSet Name="FK_UsuarioRoles_roles1" Association="productosdbModel.FK_UsuarioRoles_roles1">
+      <End Role="roles" EntitySet="roles" />
+      <End Role="UsuarioRoles" EntitySet="UsuarioRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsuarioRoles_usuarios1" Association="productosdbModel.FK_UsuarioRoles_usuarios1">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="UsuarioRoles" EntitySet="UsuarioRoles" />
+    </AssociationSet>
+    <EntitySet Name="direcciones" EntityType="productosdbModel.direcciones" />
+    <EntitySet Name="perfilUsuario" EntityType="productosdbModel.perfilUsuario" />
+    <EntitySet Name="Telefonos" EntityType="productosdbModel.Telefonos" />
+    <AssociationSet Name="FK_direcciones_perfilUsuario" Association="productosdbModel.FK_direcciones_perfilUsuario">
+      <End Role="perfilUsuario" EntitySet="perfilUsuario" />
+      <End Role="direcciones" EntitySet="direcciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_perfilUsuario_usuarios" Association="productosdbModel.FK_perfilUsuario_usuarios">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="perfilUsuario" EntitySet="perfilUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Telefonos_perfilUsuario" Association="productosdbModel.FK_Telefonos_perfilUsuario">
+      <End Role="perfilUsuario" EntitySet="perfilUsuario" />
+      <End Role="Telefonos" EntitySet="Telefonos" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="GetAllUsuarios_Result">
+    <Property Type="String" Name="username" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="suspendido" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="insert_Result">
+    <Property Type="Int32" Name="Column1" Nullable="true" />
+    <Property Type="String" Name="Column2" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="Column3" Nullable="true" />
+    <Property Type="String" Name="Column4" Nullable="true" MaxLength="128" />
+    <Property Type="DateTime" Name="Column5" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="Insertar_Usuarios_Result">
+    <Property Type="Int32" Name="Column1" Nullable="true" />
+    <Property Type="String" Name="Column2" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="Column3" Nullable="true" />
+    <Property Type="String" Name="Column4" Nullable="true" MaxLength="128" />
+    <Property Type="DateTime" Name="Column5" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSuspendidos_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="username" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="suspendido" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="strValor" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="strDescripcion" Type="String" MaxLength="350" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="UsuarioRoles" Relationship="productosdbModel.FK_UsuarioRoles_roles1" FromRole="roles" ToRole="UsuarioRoles" />
+  </EntityType>
+  <EntityType Name="UsuarioRoles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idUsuario" Type="Int32" />
+    <Property Name="idRol" Type="Int32" />
+    <NavigationProperty Name="roles" Relationship="productosdbModel.FK_UsuarioRoles_roles1" FromRole="UsuarioRoles" ToRole="roles" />
+    <NavigationProperty Name="usuarios" Relationship="productosdbModel.FK_UsuarioRoles_usuarios1" FromRole="UsuarioRoles" ToRole="usuarios" />
+  </EntityType>
+  <Association Name="FK_UsuarioRoles_roles1">
+    <End Type="productosdbModel.roles" Role="roles" Multiplicity="0..1" />
+    <End Type="productosdbModel.UsuarioRoles" Role="UsuarioRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UsuarioRoles">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioRoles_usuarios1">
+    <End Type="productosdbModel.usuarios" Role="usuarios" Multiplicity="0..1" />
+    <End Type="productosdbModel.UsuarioRoles" Role="UsuarioRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UsuarioRoles">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="direcciones">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="calle" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="colonia" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="NumInterior" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="NumExterior" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Municipio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idPerfilUsuario" Type="Int32" />
+    <NavigationProperty Name="perfilUsuario" Relationship="productosdbModel.FK_direcciones_perfilUsuario" FromRole="direcciones" ToRole="perfilUsuario" />
+  </EntityType>
+  <EntityType Name="perfilUsuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="apellidoPaterno" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="apellidoMaterno" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fechaNacimiento" Type="DateTime" Precision="0" />
+    <Property Name="rfc" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="IdUsuario" Type="Int32" />
+    <NavigationProperty Name="direcciones" Relationship="productosdbModel.FK_direcciones_perfilUsuario" FromRole="perfilUsuario" ToRole="direcciones" />
+    <NavigationProperty Name="usuarios" Relationship="productosdbModel.FK_perfilUsuario_usuarios" FromRole="perfilUsuario" ToRole="usuarios" />
+    <NavigationProperty Name="Telefonos" Relationship="productosdbModel.FK_Telefonos_perfilUsuario" FromRole="perfilUsuario" ToRole="Telefonos" />
+  </EntityType>
+  <EntityType Name="Telefonos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="celular" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="casa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="oficina" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IdPerfilUsuario" Type="Int32" />
+    <NavigationProperty Name="perfilUsuario" Relationship="productosdbModel.FK_Telefonos_perfilUsuario" FromRole="Telefonos" ToRole="perfilUsuario" />
+  </EntityType>
+  <Association Name="FK_direcciones_perfilUsuario">
+    <End Type="productosdbModel.perfilUsuario" Role="perfilUsuario" Multiplicity="0..1" />
+    <End Type="productosdbModel.direcciones" Role="direcciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="perfilUsuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="direcciones">
+        <PropertyRef Name="idPerfilUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_perfilUsuario_usuarios">
+    <End Type="productosdbModel.usuarios" Role="usuarios" Multiplicity="0..1" />
+    <End Type="productosdbModel.perfilUsuario" Role="perfilUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="perfilUsuario">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Telefonos_perfilUsuario">
+    <End Type="productosdbModel.perfilUsuario" Role="perfilUsuario" Multiplicity="0..1" />
+    <End Type="productosdbModel.Telefonos" Role="Telefonos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="perfilUsuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Telefonos">
+        <PropertyRef Name="IdPerfilUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

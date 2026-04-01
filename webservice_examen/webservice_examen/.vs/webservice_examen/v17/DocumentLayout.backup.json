@@ -1,0 +1,501 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|c:\\users\\angel\\source\\repos\\ejemplos\\webejemplo2\\webservice_examen\\web\\webroles.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:web\\webroles.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\services\\serviceroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:services\\serviceroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\web\\webusuarios.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:web\\webusuarios.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\contextproductosdb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\contextproductosdb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\services\\servicesusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:services\\servicesusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\services\\serviceperfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:services\\serviceperfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\telefonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\telefonos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\perfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\perfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\contextproductosdb.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\contextproductosdb.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\perfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\perfilusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\web\\webperfilusuario.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:web\\webperfilusuario.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\usuariodirecciontelefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\usuariodirecciontelefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\usuariosimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\usuariosimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\usuarioconroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\usuarioconroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\usuarioroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\usuarioroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\tipoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\tipoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\web\\webperfilusuario.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:web\\webperfilusuario.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\contextproductosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\contextproductosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\getallusuarios_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\getallusuarios_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\data\\sp_helpdiagramdefinition_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:data\\sp_helpdiagramdefinition_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\web\\producto.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E090079D-17CE-4BB7-AC99-3FDEAEFCA0C9}|webservice_examen.csproj|solutionrelative:web\\producto.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRoles.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Services\\ServiceRoles.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceRoles.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Services\\ServiceRoles.cs",
+              "RelativeToolTip": "Services\\ServiceRoles.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T16:09:06.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebRoles.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebRoles.asmx.cs",
+              "RelativeDocumentMoniker": "Web\\WebRoles.asmx.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebRoles.asmx.cs",
+              "RelativeToolTip": "Web\\WebRoles.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:23:50.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebUsuarios.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebUsuarios.asmx.cs",
+              "RelativeDocumentMoniker": "Web\\WebUsuarios.asmx.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebUsuarios.asmx.cs",
+              "RelativeToolTip": "Web\\WebUsuarios.asmx.cs",
+              "ViewState": "AgIAAFQBAAAAAAAAAAAAAFQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T20:00:03.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServicesUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Services\\ServicesUsuarios.cs",
+              "RelativeDocumentMoniker": "Services\\ServicesUsuarios.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Services\\ServicesUsuarios.cs",
+              "RelativeToolTip": "Services\\ServicesUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T20:00:19.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Telefono.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Telefono.cs",
+              "RelativeDocumentMoniker": "Models\\Telefono.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Telefono.cs",
+              "RelativeToolTip": "Models\\Telefono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T23:01:22.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Telefonos.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\Telefonos.cs",
+              "RelativeDocumentMoniker": "Data\\Telefonos.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\Telefonos.cs",
+              "RelativeToolTip": "Data\\Telefonos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T23:01:07.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "roles.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\roles.cs",
+              "RelativeDocumentMoniker": "Data\\roles.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\roles.cs",
+              "RelativeToolTip": "Data\\roles.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T13:57:04.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "perfilUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\perfilUsuario.cs",
+              "RelativeDocumentMoniker": "Data\\perfilUsuario.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\perfilUsuario.cs",
+              "RelativeToolTip": "Data\\perfilUsuario.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T22:47:51.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContextProductosDb.Context.tt",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\ContextProductosDb.Context.tt",
+              "RelativeDocumentMoniker": "Data\\ContextProductosDb.Context.tt",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\ContextProductosDb.Context.tt",
+              "RelativeToolTip": "Data\\ContextProductosDb.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-05T13:49:23.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContextProductosDb.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\ContextProductosDb.edmx",
+              "RelativeDocumentMoniker": "Data\\ContextProductosDb.edmx",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\ContextProductosDb.edmx [Diagram1]",
+              "RelativeToolTip": "Data\\ContextProductosDb.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-03-02T21:02:46.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicePerfilUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Services\\ServicePerfilUsuario.cs",
+              "RelativeDocumentMoniker": "Services\\ServicePerfilUsuario.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Services\\ServicePerfilUsuario.cs",
+              "RelativeToolTip": "Services\\ServicePerfilUsuario.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T23:03:09.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PerfilUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\PerfilUsuario.cs",
+              "RelativeDocumentMoniker": "Models\\PerfilUsuario.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\PerfilUsuario.cs",
+              "RelativeToolTip": "Models\\PerfilUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T22:47:48.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebPerfilUsuario.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebPerfilUsuario.asmx.cs",
+              "RelativeDocumentMoniker": "Web\\WebPerfilUsuario.asmx.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebPerfilUsuario.asmx.cs",
+              "RelativeToolTip": "Web\\WebPerfilUsuario.asmx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T22:44:33.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioDireccionTelefono.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioDireccionTelefono.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioDireccionTelefono.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioDireccionTelefono.cs",
+              "RelativeToolTip": "Models\\UsuarioDireccionTelefono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:27:54.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioSimple.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioSimple.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioSimple.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioSimple.cs",
+              "RelativeToolTip": "Models\\UsuarioSimple.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:58:21.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioRol.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioRol.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioRol.cs",
+              "RelativeToolTip": "Models\\UsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T12:50:54.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:39:46.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioConRoles.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioConRoles.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioConRoles.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\UsuarioConRoles.cs",
+              "RelativeToolTip": "Models\\UsuarioConRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T10:13:16.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:11:59.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioRoles.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\UsuarioRoles.cs",
+              "RelativeDocumentMoniker": "Data\\UsuarioRoles.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\UsuarioRoles.cs",
+              "RelativeToolTip": "Data\\UsuarioRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T12:54:04.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\usuarios.cs",
+              "RelativeDocumentMoniker": "Data\\usuarios.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\usuarios.cs",
+              "RelativeToolTip": "Data\\usuarios.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T22:08:05.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T21:03:09.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TipoA.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\TipoA.cs",
+              "RelativeDocumentMoniker": "Models\\TipoA.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\TipoA.cs",
+              "RelativeToolTip": "Models\\TipoA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:11:52.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Direccion.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Direccion.cs",
+              "RelativeDocumentMoniker": "Models\\Direccion.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Direccion.cs",
+              "RelativeToolTip": "Models\\Direccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T23:04:00.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WebPerfilUsuario.asmx.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebPerfilUsuario.asmx.cs",
+              "RelativeDocumentMoniker": "Web\\WebPerfilUsuario.asmx.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\WebPerfilUsuario.asmx.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Web\\WebPerfilUsuario.asmx.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T22:45:12.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContextProductosDb.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\ContextProductosDb.cs",
+              "RelativeDocumentMoniker": "Data\\ContextProductosDb.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\ContextProductosDb.cs",
+              "RelativeToolTip": "Data\\ContextProductosDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:42:35.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetAllUsuarios_Result.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\GetAllUsuarios_Result.cs",
+              "RelativeDocumentMoniker": "Data\\GetAllUsuarios_Result.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\GetAllUsuarios_Result.cs",
+              "RelativeToolTip": "Data\\GetAllUsuarios_Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:42:33.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Models\\Rol.cs",
+              "RelativeToolTip": "Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T13:57:51.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "producto.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\producto.asmx.cs",
+              "RelativeDocumentMoniker": "Web\\producto.asmx.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Web\\producto.asmx.cs",
+              "RelativeToolTip": "Web\\producto.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:23:48.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "sp_helpdiagramdefinition_Result.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\sp_helpdiagramdefinition_Result.cs",
+              "RelativeDocumentMoniker": "Data\\sp_helpdiagramdefinition_Result.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Ejemplos\\webEjemplo2\\webservice_examen\\Data\\sp_helpdiagramdefinition_Result.cs",
+              "RelativeToolTip": "Data\\sp_helpdiagramdefinition_Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:25:27.148Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

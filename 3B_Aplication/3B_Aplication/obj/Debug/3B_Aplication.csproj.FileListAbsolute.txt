@@ -1,0 +1,12 @@
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\_3B_Aplication.Form1.resources
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\_3B_Aplication.Properties.Resources.resources
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\3B_Aplication.csproj.GenerateResource.cache
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\bin\Debug\3B_Aplication.exe.config
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\bin\Debug\3B_Aplication.exe
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\bin\Debug\3B_Aplication.pdb
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\3B_Aplication.exe
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\3B_Aplication.pdb
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\_3B_Aplication.FrmDetalleVenta.resources
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\3B_Aplication.csproj.AssemblyReference.cache
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\3B_Aplication.exe.config
+C:\Users\salsa\OneDrive\Documentos\3B_Proyect\3B_Aplication\3B_Aplication\obj\Debug\3B_Aplication.csproj.CoreCompileInputs.cache
